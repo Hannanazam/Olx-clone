@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+.header{
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  z-index: 9;
+  background: #f1f1f1;
+  box-shadow: 0px 2px 2px #dadada;
+}
+.home-page{
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar img{
+  width: 60px;
+}
+/* .black{
+  border: 1px solid rgb(0, 26, 3) !important;
+}
+.black:active{
+  border-color: aqua !important;
+}
+.black:hover{
+  border-color: aqua !important;
+} */
+.pointer{
+  cursor: pointer;
+}
+.black{
+  border: 1px solid rgb(0, 26, 3) !important;
+  border-radius: 2px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.basiccolor{
+  color: rgb(0, 26, 3) !important;
+}
+.black:active{
+  border: 1px solid aqua !important;
+}
+.black:focus{
+  border: 1px solid aqua !important;
+  outline-color: none !important;
+}
+/* .navbar{
+  position: fixed !important;
+  top: 0px !important;
+} */
+.set-margin input{
+  width: 600px !important;
+  text-align: left !important;
+  padding: 20px 10px !important;
+}
+.login-btn{
+  color: rgb(0, 26, 3) !important;
+  text-decoration: underline;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+.login-btn:hover{
+  text-decoration: none !important;
+}
+.visibilityy ul li a{
+  color: rgb(0, 26, 3);
+}
+.visibilityy ul li a:hover{
+  color: rgb(0, 192, 192) !important;
+}
+.padding{
+  background-color: rgb(255, 255, 255);
+}
+.padding a:hover{
+  color: rgb(0, 26, 3);
+}
+.padding h6{
+  margin: 10px 0px !important;
+  text-align: left !important;
+  margin-bottom: 30px !important;
+}
+.padding a{
+  text-align: left !important;
+  font-size: 13px !important;
+  padding: 0px;
+  margin: 2px;
+  color: grey;
+  cursor: pointer;
+}
+.inline-elements{
+  display: flex !important;
+}
+.footermain{
+  color: white !important;
+  background-color: rgb(2, 70, 64);
+  font-size: 14px !important;
+}
+.card-body{
+  border-left: 5px solid gold;
+}
+.card{
+  margin-top: 10px !important;
+  cursor: pointer;
+}
+
+.headingsizing{
+  margin-left: 20px !important;
+  margin-bottom: -70px !important;
+}
+@media (max-width:765px){
+
+  .margining{
+    display: block !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navbar-collapse select{
+    max-width: 45% !important;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar-collapse .select1{
+    max-width: 50% !important;
   }
+  .visibilityy{
+    display: none !important;
+  }
+  .img-none{
+    display: none !important;
+  }
+  .padding h6{
+    margin-bottom: 10px !important;
+  }
+
+  .marginfooter, .marginone{
+    margin: 0px auto !important;
+  }
+ .card{
+   width: 9.3rem !important;
+   margin-top: 5px !important;
+ }
+ .headingsizing{
+      font-size: 25px !important; 
+      margin-left: 0px !important;
+      margin-bottom: 0px !important;
+}
+
 }
